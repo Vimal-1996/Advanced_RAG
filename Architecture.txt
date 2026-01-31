@@ -1,0 +1,11 @@
+Document (3GB)
+    ↓
+Preprocessing Layer (parallel processing)
+    ↓
+Chunking + Embedding (batch jobs)
+    ↓
+Vector DB (indexed, sharded)
+    ↓
+Query → Retrieval (hybrid search) → Reranking → Top-K chunks
+    ↓
+LLM Generation (with context window management)
